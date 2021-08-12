@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-Ufynd.Task1.Client-EB041336-BA8C-4ADE-8F40-656AB38BE4B7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ufynd.Application.Task1\Ufynd.Task1.Application.csproj" />
+    <ProjectReference Include="..\Ufynd.Common\Ufynd.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="input\task1.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementation\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+</Project>

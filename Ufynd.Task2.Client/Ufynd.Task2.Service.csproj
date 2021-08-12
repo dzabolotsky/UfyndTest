@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-Ufynd.Task2.Client-482B92B9-8B26-45EB-A698-2C45F1E6A9CA</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ufynd.Task2.Application\Ufynd.Task2.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="input\" />
+  </ItemGroup>
+</Project>
