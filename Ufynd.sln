@@ -3,31 +3,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ufynd.Task1.Application", "Ufynd.Application.Task1\Ufynd.Task1.Application.csproj", "{696B0D78-37DA-407E-B684-B4C8B095FE42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ufynd.Task1.Application", "Ufynd.Application.Task1\Ufynd.Task1.Application.csproj", "{696B0D78-37DA-407E-B684-B4C8B095FE42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ufynd.Task1.Service", "Ufynd.Task1.Client\Ufynd.Task1.Service.csproj", "{50D809DB-FD8E-4013-860F-3DA6D79B450B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ufynd.Task1.Service", "Ufynd.Task1.Client\Ufynd.Task1.Service.csproj", "{50D809DB-FD8E-4013-860F-3DA6D79B450B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ufynd.Task1.Tests", "Ufynd.Task1.Tests\Ufynd.Task1.Tests.csproj", "{4DF4805F-9E61-4122-A802-B7D579635F89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ufynd.Task1.Tests", "Ufynd.Task1.Tests\Ufynd.Task1.Tests.csproj", "{4DF4805F-9E61-4122-A802-B7D579635F89}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{7637EA91-D214-41F3-BCCE-0596B1B1149B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ufynd.Task2.Application", "Ufynd.Task2.Application\Ufynd.Task2.Application.csproj", "{D04ED59F-3A1D-4AC0-977A-548E6A18DCB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ufynd.Task2.Application", "Ufynd.Task2.Application\Ufynd.Task2.Application.csproj", "{D04ED59F-3A1D-4AC0-977A-548E6A18DCB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ufynd.Task2.Service", "Ufynd.Task2.Client\Ufynd.Task2.Service.csproj", "{68ACE20B-07BF-440D-9E33-AB47449282CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ufynd.Task2.Service", "Ufynd.Task2.Client\Ufynd.Task2.Service.csproj", "{68ACE20B-07BF-440D-9E33-AB47449282CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ufynd.Common", "Ufynd.Common\Ufynd.Common.csproj", "{55397457-3B40-4A82-86D5-CA92A874BB03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ufynd.Common", "Ufynd.Common\Ufynd.Common.csproj", "{55397457-3B40-4A82-86D5-CA92A874BB03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ufynd.Task2.Tests", "Ufynd.Task2.Tests\Ufynd.Task2.Tests.csproj", "{B4214107-6872-469E-841C-7CFCD1EC7870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ufynd.Task2.Tests", "Ufynd.Task2.Tests\Ufynd.Task2.Tests.csproj", "{B4214107-6872-469E-841C-7CFCD1EC7870}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{D191F478-A231-4A45-B2C8-6492B73EB8F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ufynd.Task1.Web", "Ufynd.Task1.Web\Ufynd.Task1.Web.csproj", "{E3616CB2-4A21-4189-B8CC-6B8F0BE477D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ufynd.Task1.Web", "Ufynd.Task1.Web\Ufynd.Task1.Web.csproj", "{E3616CB2-4A21-4189-B8CC-6B8F0BE477D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFynd.Task3.Web", "UFynd.Task3.Web\UFynd.Task3.Web.csproj", "{C50AF72A-A4D6-4FF6-A09D-F39FB155A03C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UFynd.Task3.Web", "UFynd.Task3.Web\UFynd.Task3.Web.csproj", "{C50AF72A-A4D6-4FF6-A09D-F39FB155A03C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFynd.Task3.Tests", "UFynd.Task3.Tests\UFynd.Task3.Tests.csproj", "{42B4F823-9C2A-4D46-A778-4E440856A9B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UFynd.Task3.Tests", "UFynd.Task3.Tests\UFynd.Task3.Tests.csproj", "{42B4F823-9C2A-4D46-A778-4E440856A9B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{95AC7536-0BCB-4636-B172-EB8FB927B18B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task Description", "Task Description", "{F37597CD-1CD0-4778-A857-599CE747A520}"
+	ProjectSection(SolutionItems) = preProject
+		TasksDescription\Backend Engineering Assignment - ufynd (1).pdf = TasksDescription\Backend Engineering Assignment - ufynd (1).pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{EC8D1860-9C6F-48C8-879E-117D3855C8FE}"
+	ProjectSection(SolutionItems) = preProject
+		TasksDescription\Task 1\task 1 - Kempinski Hotel Bristol Berlin, Germany - Booking.com.html = TasksDescription\Task 1\task 1 - Kempinski Hotel Bristol Berlin, Germany - Booking.com.html
+		TasksDescription\Task 1\task 1 - screencapture-www-booking-com.png = TasksDescription\Task 1\task 1 - screencapture-www-booking-com.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{8AAD578B-2CD4-4323-971A-BEBA215894B9}"
+	ProjectSection(SolutionItems) = preProject
+		TasksDescription\Task 2\task 2 - hotelrates.json = TasksDescription\Task 2\task 2 - hotelrates.json
+		TasksDescription\Task 2\task 2 - screencapture-excel-report.png = TasksDescription\Task 2\task 2 - screencapture-excel-report.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{F5DCD630-A670-4D16-84AB-9C4F93CABD22}"
+	ProjectSection(SolutionItems) = preProject
+		TasksDescription\Task 3\task 3 - hotelsrates.json = TasksDescription\Task 3\task 3 - hotelsrates.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +111,9 @@ Global
 		{E3616CB2-4A21-4189-B8CC-6B8F0BE477D9} = {7637EA91-D214-41F3-BCCE-0596B1B1149B}
 		{C50AF72A-A4D6-4FF6-A09D-F39FB155A03C} = {95AC7536-0BCB-4636-B172-EB8FB927B18B}
 		{42B4F823-9C2A-4D46-A778-4E440856A9B3} = {95AC7536-0BCB-4636-B172-EB8FB927B18B}
+		{EC8D1860-9C6F-48C8-879E-117D3855C8FE} = {F37597CD-1CD0-4778-A857-599CE747A520}
+		{8AAD578B-2CD4-4323-971A-BEBA215894B9} = {F37597CD-1CD0-4778-A857-599CE747A520}
+		{F5DCD630-A670-4D16-84AB-9C4F93CABD22} = {F37597CD-1CD0-4778-A857-599CE747A520}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E3672F6-EEAE-48D0-BC2F-2289C1C6F0DA}
