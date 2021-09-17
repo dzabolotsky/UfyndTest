@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Ufynd.Application.Task1.Implementation;
 using Ufynd.Application.Task1.Interfaces;
@@ -42,8 +43,9 @@ namespace Ufynd.Task1.Tests
         {
             var logger = Mock.Of<ILogger<Worker>>();
             var worker = new Worker(logger, _bookingJsonParsingService, _appSettings, _saveService);
-            await worker.StartAsync(System.Threading.CancellationToken.None);
-            await worker.StopAsync(System.Threading.CancellationToken.None);
+            CancellationTokenSource tokenSource = new CancellationTokenSource(TimeSpan.FromMinutes(30));
+            await worker.StartAsync(tokenSource.Token);
+            await worker.StopAsync(tokenSource.Token);
             var files=Directory.GetFiles(_appSettings.OutputFolderPath);
             Assert.AreEqual(1,files.Length);
             Assert.Pass();
